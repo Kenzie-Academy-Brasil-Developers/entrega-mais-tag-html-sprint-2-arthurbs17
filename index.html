@@ -6,53 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://cdn.glitch.com/d635d371-8375-4e52-84b1-7363df64a36e%2FTQZR39SET-U021WQV1D28-290f47c5e848-192.jpeg?v=1622690175156" />
     <title>Portifólio de um Dev. Iniciante&copy;</title>
-
-    <style>
-
-        header{
-            text-align: center;
-        }
-        body{
-            color:blanchedalmond;
-            background-color:rgb(39, 37, 44);
-            margin-top: 0px;
-            margin-left: 10px;
-            margin-right: 30px;
-            font-size: medium;
-        }
-
-        footer{
-            font-size: small;
-            text-align: center;
-            background-color: blanchedalmond;
-            color: rgb(39, 37, 44);
-            margin-bottom: 5px;
-        }
-        
-        table, td, th, tr{
-
-            border: 1px solid rgb(39, 37, 44);
-            border-collapse: collapse;
-            padding: 0.25rem;
-            margin-left: 510px;
-            margin-top: 10px;
-
-        }
-
-        ul{
-            list-style:square;
-        }
-
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-    <header>
-        <h1>
-            Portfólio Básico de um Dev. Iniciante.
+    <header class="cabeçalho">
+        <h1 class="cabeçalho-2 titulo">
+            Portfólio Básico de um Dev. Iniciante &reg;.
         </h1>
-        <figure>
+        <figure class="cabeçalho-2 foto">
             <img src="https://cdn.glitch.com/d635d371-8375-4e52-84b1-7363df64a36e%2FTQZR39SET-U021WQV1D28-290f47c5e848-192.jpeg?v=1622690175156"
                 alt="Arthur Sarmento"
                 width="100px"
@@ -106,25 +72,27 @@
             </ul>
             </p>
         
-            <details>
+            <div class="costurado">
+                <details>
 
-                <summary> Aqui são aguns dos sites que mais visito, tanto para estudo, como para me divertir: </summary>
+                    <summary> Aqui são aguns dos sites que mais visito, tanto para estudo, como para me divertir: </summary>
+                        
+                    <p>
+                        <a href="https://www.youtube.com/" target="_blank" title="Youtube" >Youtube
+                        </a><br>
+                        
+                        <a href="https://github.com/" target="_blank" >Github
+                        </a><br>
+                        
+                        <a href="https://www.spotify.com/br" target="_blank" >Spotify
+                        </a><br>
+                        
+                        <a href="https://alunos.kenzie.com.br/" target="_blank" >Kenzie
+                        </a><br>
+                    </p>
                     
-                <p>
-                    <a href="https://www.youtube.com/" target="_blank" title="Youtube" >Youtube
-                    </a><br>
-                    
-                    <a href="https://github.com/" target="_blank" >Github
-                    </a><br>
-                    
-                    <a href="https://www.spotify.com/br" target="_blank" >Spotify
-                    </a><br>
-                    
-                    <a href="https://alunos.kenzie.com.br/" target="_blank" >Kenzie
-                    </a><br>
-                </p>
-                
-            </details>
+                </details>
+            </div>
 
             <p>
                 No mais, apesar do triste e complicado momento que vivemos, não podemos deixar de aproveitar o que nos instiga, mas claro com cuidado.
@@ -166,9 +134,9 @@
 
     </main>
 
-    
+    <hr>
     <footer>
-
+        
         <p>
         E se quiser entrar em contato comigo:
         </p>
@@ -179,7 +147,7 @@
             <th>E-mail</th>
             </tr>
             <tr>
-            <td>81-98349-8699</td>
+            <td id="tel">81-98349-8699</td>
             <td><a href="mailto:arthurbs17@gmail.com?subject=Assunto"> arthurbs17@gmail.com</a></td>
             </tr>
         </table>

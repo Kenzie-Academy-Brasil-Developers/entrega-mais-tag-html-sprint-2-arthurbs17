@@ -1,0 +1,75 @@
+
+.cabeçalho{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(35, 82, 77);
+    border: 1.5px solid lightgray;
+    box-shadow: inset 0 0 100px lightgray;
+    margin: 0 auto;
+    height: 150px;
+    width: 100%;
+}
+
+.cabeçalho-2{
+    display:inline-block;
+    text-align:right;
+    
+}
+.titulo{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.foto{
+    float: right;
+}
+
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:blanchedalmond;
+    background-color:rgb(39, 37, 44);
+    margin: 0 auto;
+    font-size: medium;
+    border: 5px solid lightgray;
+    border-collapse: collapse;
+    box-shadow: inset 0 200px 400px black;
+}
+
+main{
+    padding: 0.50rem;
+    text-align: justify;
+}
+
+footer{
+    font-size: small;
+    text-align: center;
+    background-color: blanchedalmond;
+    color: rgb(39, 37, 44);
+    margin-bottom: 5px;
+    border: 1.5px solid lightgray;
+}
+
+table, td, th, tr{
+    
+    border: 1px solid rgb(39, 37, 44);
+    border-collapse: collapse;
+    padding: 0.25rem;
+    margin-left: 510px;
+    margin-top: 10px;
+
+}
+
+ul{
+    list-style:square;
+}
+
+#tel{
+    font-weight: bold;
+}
+
+.costurado{
+    border: 1px dashed blanchedalmond;
+    width: 700px;
+    border-radius: 10px;
+}
